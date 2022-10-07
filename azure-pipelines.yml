@@ -21,7 +21,7 @@ steps:
   inputs:
     SourceFolder: 'S(Build.SourcesDirectory)'
     Contents: '**/*.jar'
-    TargetFolder: 'S(Build.ArtifactStagingDirectory)'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
     CleanTargetFolder: true
     preserveTimestamp: true
 - task: PublishBuildArtifacts@1
