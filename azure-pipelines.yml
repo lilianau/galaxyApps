@@ -28,6 +28,6 @@ steps:
 - task: DownloadPipelineArtifact@0
   inputs:
     #pipelineId: # string. The specific pipeline to download from. 
-    artifactName: 'drop' # string. Required. The name of artifact to download. Default: drop.
+    artifactName: 'fuenteTest1' # string. Required. The name of artifact to download. Default: fuenteTest1.
     targetPath: $(Build.ArtifactStagingDirectory) # string. Required. Path to download to.
   
