@@ -23,7 +23,8 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-         <repository>
+         
+    <repository>
          <id>fuenteTest1</id>
          <url>https://pkgs.dev.azure.com/lilianauchupaille/FG_PRACTICAS/_packaging/fuenteTest1/maven/v1</url>
          <releases>
