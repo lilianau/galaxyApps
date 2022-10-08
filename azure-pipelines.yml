@@ -28,6 +28,6 @@ steps:
 - task: DownloadPipelineArtifact@0
   inputs:
     #pipelineId: # string. The specific pipeline to download from. 
-    artifactName: 'myFirstApp' # string. Required. The name of artifact to download. Default: myFirstApp.
+    artifactName: 'galaxyApps' # string. Required. The name of artifact to download. Default: galaxyApps.
     targetPath: $(Build.ArtifactStagingDirectory) # string. Required. Path to download to.
   
